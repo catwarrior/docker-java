@@ -5,6 +5,9 @@
 [![GitHub issues](https://img.shields.io/github/issues/frekele/docker-java.svg)](https://github.com/frekele/docker-java/issues)
 [![GitHub forks](https://img.shields.io/github/forks/frekele/docker-java.svg)](https://github.com/frekele/docker-java/network)
 [![GitHub stars](https://img.shields.io/github/stars/frekele/docker-java.svg)](https://github.com/frekele/docker-java/stargazers)
+[![Website](https://img.shields.io/website-up-down-green-red/http/shields.io.svg)](https://frekele.github.io/docker-java/)
+
+Site: https://frekele.github.io/docker-java/
 
 Repository: https://hub.docker.com/r/frekele/java
 
@@ -77,6 +80,7 @@ frekele/docker-java is **licensed** under the **[MIT License]**. The terms of th
 
 
 [ORACLE LICENSE]: http://www.oracle.com/technetwork/java/javase/terms/license/index.html
+[MIT LICENSE]: https://github.com/frekele/docker-java/blob/dev/LICENSE
 [jdk8u102]: https://github.com/frekele/docker-java/blob/jdk8u102/Dockerfile
 [jdk8u101]: https://github.com/frekele/docker-java/blob/jdk8u101/Dockerfile
 [jdk8u92]: https://github.com/frekele/docker-java/blob/jdk8u92/Dockerfile

@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <title>docker-java by frekele</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
+  </head>
+  <body>
+    <section class="page-header">
+      <h1 class="project-name">docker-java</h1>
+      <h2 class="project-tagline">Java Oracle (s6-overlay) Docker Image - Extends frekele/debian.</h2>
+      <a href="https://github.com/frekele/docker-java" class="btn">View on GitHub</a>
+      <a href="https://github.com/frekele/docker-java/zipball/master" class="btn">Download .zip</a>
+      <a href="https://github.com/frekele/docker-java/tarball/master" class="btn">Download .tar.gz</a>
+    </section>
+
+    <section class="main-content">
+      <h1>
+<a id="oracle-java-s6-overlay-docker-image" class="anchor" href="#oracle-java-s6-overlay-docker-image" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Oracle Java (s6-overlay) Docker Image</h1>
+
+<p><a href="https://hub.docker.com/r/frekele/java/"><img src="https://img.shields.io/docker/pulls/frekele/java.svg" alt="Docker Pulls"></a>
+<a href="https://hub.docker.com/r/frekele/java/"><img src="https://img.shields.io/docker/stars/frekele/java.svg" alt="Docker Stars"></a>
+<a href="https://github.com/frekele/docker-java/issues"><img src="https://img.shields.io/github/issues/frekele/docker-java.svg" alt="GitHub issues"></a>
+<a href="https://github.com/frekele/docker-java/network"><img src="https://img.shields.io/github/forks/frekele/docker-java.svg" alt="GitHub forks"></a>
+<a href="https://github.com/frekele/docker-java/stargazers"><img src="https://img.shields.io/github/stars/frekele/docker-java.svg" alt="GitHub stars"></a></p>
+
+<p>Repository: <a href="https://hub.docker.com/r/frekele/java">https://hub.docker.com/r/frekele/java</a></p>
+
+<h4>
+<a id="oracle-jdk-branches" class="anchor" href="#oracle-jdk-branches" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Oracle JDK Branches:</h4>
+
+<table>
+<thead>
+<tr>
+<th>Branch</th>
+<th>From</th>
+<th>Usage</th>
+<th>Tag Names</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<a href="https://github.com/frekele/docker-java/blob/jdk8u102/Dockerfile">jdk8u102</a> - latest</td>
+<td>frekele/debian:stable</td>
+<td>Production</td>
+<td>jdk8u102, 8u102, jdk8, 8, latest</td>
+</tr>
+<tr>
+<td><a href="https://github.com/frekele/docker-java/blob/jdk8u101/Dockerfile">jdk8u101</a></td>
+<td>frekele/debian:stable</td>
+<td>Production</td>
+<td>jdk8u101, 8u101</td>
+</tr>
+<tr>
+<td><a href="https://github.com/frekele/docker-java/blob/jdk8u92/Dockerfile">jdk8u92</a></td>
+<td>frekele/debian:stable</td>
+<td>Production</td>
+<td>jdk8u92, 8u92</td>
+</tr>
+<tr>
+<td><a href="https://github.com/frekele/docker-java/blob/jdk8u91/Dockerfile">jdk8u91</a></td>
+<td>frekele/debian:stable</td>
+<td>Production</td>
+<td>jdk8u91, 8u91</td>
+</tr>
+<tr>
+<td><a href="https://github.com/frekele/docker-java/blob/jdk8u77/Dockerfile">jdk8u77</a></td>
+<td>frekele/debian:stable</td>
+<td>Production</td>
+<td>jdk8u77, 8u77</td>
+</tr>
+<tr>
+<td><a href="https://github.com/frekele/docker-java/blob/jdk8u74/Dockerfile">jdk8u74</a></td>
+<td>frekele/debian:stable</td>
+<td>Production</td>
+<td>jdk8u74, 8u74</td>
+</tr>
+<tr>
+<td><a href="https://github.com/frekele/docker-java/blob/jdk8u73/Dockerfile">jdk8u73</a></td>
+<td>frekele/debian:stable</td>
+<td>Production</td>
+<td>jdk8u73, 8u73</td>
+</tr>
+<tr>
+<td><a href="https://github.com/frekele/docker-java/blob/jdk8u72/Dockerfile">jdk8u72</a></td>
+<td>frekele/debian:stable</td>
+<td>Production</td>
+<td>jdk8u72, 8u72</td>
+</tr>
+<tr>
+<td><a href="https://github.com/frekele/docker-java/blob/jdk8u71/Dockerfile">jdk8u71</a></td>
+<td>frekele/debian:stable</td>
+<td>Production</td>
+<td>jdk8u71, 8u71</td>
+</tr>
+<tr>
+<td><a href="https://github.com/frekele/docker-java/blob/jdk8u66/Dockerfile">jdk8u66</a></td>
+<td>frekele/debian:stable</td>
+<td>Production</td>
+<td>jdk8u66, 8u66</td>
+</tr>
+<tr>
+<td><a href="https://github.com/frekele/docker-java/blob/jdk8u65/Dockerfile">jdk8u65</a></td>
+<td>frekele/debian:stable</td>
+<td>Production</td>
+<td>jdk8u65, 8u65</td>
+</tr>
+<tr>
+<td><a href="https://github.com/frekele/docker-java/blob/jdk8u60/Dockerfile">jdk8u60</a></td>
+<td>frekele/debian:stable</td>
+<td>Production</td>
+<td>jdk8u60, 8u60</td>
+</tr>
+<tr>
+<td><a href="https://github.com/frekele/docker-java/blob/jdk8u51/Dockerfile">jdk8u51</a></td>
+<td>frekele/debian:stable</td>
+<td>Production</td>
+<td>jdk8u51, 8u51</td>
+</tr>
+<tr>
+<td><a href="https://github.com/frekele/docker-java/blob/jdk7u80/Dockerfile">jdk7u80</a></td>
+<td>frekele/debian:stable</td>
+<td>Production</td>
+<td>jdk7u80, 7u80, jdk7, 7</td>
+</tr>
+<tr>
+<td><a href="https://github.com/frekele/docker-java/blob/jdk7u79/Dockerfile">jdk7u79</a></td>
+<td>frekele/debian:stable</td>
+<td>Production</td>
+<td>jdk7u79, 7u79</td>
+</tr>
+<tr>
+<td><a href="https://github.com/frekele/docker-java/blob/jdk7u76/Dockerfile">jdk7u76</a></td>
+<td>frekele/debian:stable</td>
+<td>Production</td>
+<td>jdk7u76, 7u76</td>
+</tr>
+<tr>
+<td><a href="https://github.com/frekele/docker-java/blob/jdk7u75/Dockerfile">jdk7u75</a></td>
+<td>frekele/debian:stable</td>
+<td>Production</td>
+<td>jdk7u75, 7u75</td>
+</tr>
+<tr>
+<td><a href="https://github.com/frekele/docker-java/blob/jdk7u72/Dockerfile">jdk7u72</a></td>
+<td>frekele/debian:stable</td>
+<td>Production</td>
+<td>jdk7u72, 7u72</td>
+</tr>
+<tr>
+<td><a href="https://github.com/frekele/docker-java/blob/jdk7u71/Dockerfile">jdk7u71</a></td>
+<td>frekele/debian:stable</td>
+<td>Production</td>
+<td>jdk7u71, 7u71</td>
+</tr>
+<tr>
+<td><a href="https://github.com/frekele/docker-java/blob/jdk8dev/Dockerfile">jdk8dev</a></td>
+<td>frekele/debian:stable</td>
+<td>Development</td>
+<td>jdk7dev</td>
+</tr>
+<tr>
+<td><a href="https://github.com/frekele/docker-java/blob/jdk7dev/Dockerfile">jdk7dev</a></td>
+<td>frekele/debian:stable</td>
+<td>Development</td>
+<td>jdk8dev</td>
+</tr>
+</tbody>
+</table>
+
+<h1>
+<a id="dockerfile-extends-from" class="anchor" href="#dockerfile-extends-from" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Dockerfile extends From:</h1>
+
+<ul>
+<li><a href="https://github.com/frekele/docker-debian">https://github.com/frekele/docker-debian</a></li>
+<li><a href="https://hub.docker.com/r/frekele/debian">https://hub.docker.com/r/frekele/debian</a></li>
+</ul>
+
+<h2>
+<a id="relations" class="anchor" href="#relations" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Relations:</h2>
+
+<ul>
+<li><a href="https://github.com/just-containers/s6-overlay">https://github.com/just-containers/s6-overlay</a></li>
+</ul>
+
+<h2>
+<a id="run-java-container-with-the-trusted-ssl-certificates" class="anchor" href="#run-java-container-with-the-trusted-ssl-certificates" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Run Java container with the trusted SSL certificates:</h2>
+
+<pre><code>docker run --rm -v /mnt/vol-ssl/trusted:/opt/ssl/trusted --name java frekele/java
+</code></pre>
+
+<h3>
+<a id="license" class="anchor" href="#license" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>License:</h3>
+
+<p>See <a href="http://www.oracle.com/technetwork/java/javase/terms/license/index.html">ORACLE LICENSE</a></p>
+
+<p>frekele/docker-java is <strong>licensed</strong> under the <strong><a href="https://github.com/frekele/docker-java/blob/dev/LICENSE">MIT License</a></strong>. The terms of the license are as follows:</p>
+
+<pre><code>The MIT License (MIT)
+
+Copyright (c) 2016 Leandro Kersting de Freitas
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+</code></pre>
+
+      <footer class="site-footer">
+        <span class="site-footer-owner"><a href="https://github.com/frekele/docker-java">docker-java</a> is maintained by <a href="https://github.com/frekele">frekele</a>.</span>
+
+        <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the <a href="https://github.com/jasonlong/cayman-theme">Cayman theme</a> by <a href="https://twitter.com/jasonlong">Jason Long</a>.</span>
+      </footer>
+
+    </section>
+
+  
+  </body>
+</html>
